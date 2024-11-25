@@ -1,0 +1,49 @@
+body{
+    background-image: url('background\ transparant.png');
+}
+
+.judul{
+    text-align: center;
+    text-decoration: underline overline;
+    text-decoration-line:green;
+}
+
+.awal{
+    text-align: justify;
+}
+
+.sdgs4{
+    margin: 10px 0px;
+}
+.column{
+    float:left;
+    padding: 10px 10px;
+}
+
+.column.side{
+    margin:10px 0px;
+    width: 20%;
+    background-color:#3C552D;
+}
+
+.column.middle{
+    text-align: justify;
+    margin: 10px;
+    width: 55%;
+    height: 210px;
+    background-color:#d1ed7f;
+}
+
+.column.isi{
+    text-align: justify;
+    margin: 10px;
+    width: 55%;
+    height: 400px;
+    background-color: #acc75d;
+}
+
+.unair{
+    margin:30px;
+    height:150px;
+    width:250px;
+}

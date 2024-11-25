@@ -1,0 +1,47 @@
+body{
+    background-image: url('background\ transparant.png');
+}
+
+.judul{
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color:green;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.column1{
+    text-align: justify;
+    float: left;
+    padding: 10px;
+    height: 950px;
+    width: 390px;
+}
+
+.column2{
+    text-align: justify;
+    float: left;
+    margin: 0px 8px;
+    padding: 10px;
+    height: 950px;
+    width: 390px;
+}
+
+.column3{
+    text-align: justify;
+    float: left;
+    padding: 10px;
+    height: 950px;
+    width: 390px; 
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

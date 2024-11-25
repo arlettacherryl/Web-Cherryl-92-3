@@ -1,0 +1,82 @@
+body{
+    background-image: url('background\ transparant.png');
+}
+.Header{
+    width: 100px;
+    margin: 0px;
+    position:relative;
+}
+
+h2{
+    color:#85c461;
+    text-decoration: underline;
+    text-decoration-color: #fcfffa;
+}
+/* Kode CSS Navigator */
+ul{
+    list-style:none;
+    background: #859F3D;
+    padding: 0px 0px;
+    margin: 0px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+ul a:hover{
+    background-color: #31511E;
+}
+
+/* Kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* Kode CSS Side Bar */
+.column{
+    float:left;
+    padding: 10px 10px;
+}
+
+/*left column */
+.column.side{
+    margin:0px 0px;
+    width: 20%;
+    background-color:#3C552D;
+}
+
+/* Kode CSS middle bar*/
+.column.middle{
+    margin: 0px 0px;
+    width: 69%;
+    background-color:#d1ed7f;
+}
+
+.footer{
+    width: 1280px;
+    position: fixed;
+    margin: 575px 0px;
+}

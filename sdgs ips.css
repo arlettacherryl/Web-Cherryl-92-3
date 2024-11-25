@@ -1,0 +1,9 @@
+body{
+background-image: url('background\ transparant.png');
+}
+
+.judul{
+    text-align: center;
+    text-decoration: underline overline;
+    text-decoration-color: darkgreen;
+}
